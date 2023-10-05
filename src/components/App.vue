@@ -176,17 +176,17 @@ export default {
     const retrieveCoins = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8085/crypto/api/v1/coin/market"
+          "http://localhost:8088/crypto/api/v1/coin/market"
         );
         coins.value = response.data;
       } catch (err) {
         console.log(err);
       }
     };
-    // fetch timer, invoke backend service in every 2 seconds 
+    // fetch timer, invoke backend service in every 30 seconds 
     setInterval(() => {
       retrieveCoins();
-    }, 10000);
+    }, 30000);
     // 10 items for marquee
     const tenCoins = computed(() => {
       return coins.value.slice(0, 10);

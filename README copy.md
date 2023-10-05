@@ -1,7 +1,7 @@
-## Venturenix LAB trial-class
+## Vue Project Demo
 
-- Demo Frontend Vue.js App for Java Trial-Class
-![trial-class](../frontend-vue/img/trial-class.png)
+- Demo Frontend Vue.js App for Java 
+![abc](../frontend-vue/img/abc.png)
 
 ## Project setup
 
