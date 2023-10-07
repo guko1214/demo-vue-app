@@ -231,7 +231,7 @@ export default {
   z-index: 1;
 }
 .marquee {
-  background: rgb(6, 78, 107);
+  background: rgb(132, 191, 59);
 }
 .marquee:before {
   left: 0;
